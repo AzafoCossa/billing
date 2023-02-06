@@ -42,7 +42,7 @@ class Order extends AbstractModel
         return $this;
     }
 
-    public function getTital()
+    public function getTotal()
     {
         return $this->total;
     }
